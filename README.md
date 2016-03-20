@@ -23,4 +23,4 @@ Instagram is a simple app that displays the Instagram posts provided by the popu
 Here's a walkthrough of implemented user stories:
 
 
-![Video Walkthrough](instagram.mp4)
+![Video Walkthrough](instagram.gif)
