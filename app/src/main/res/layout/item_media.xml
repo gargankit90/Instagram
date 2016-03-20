@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:src="@mipmap/ic_launcher"
+        style="@style/styleProfilePicture" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:text="@string/textUsername"
+        style="@style/styleUsername" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_clock"
+        style="@style/styleImageView" />
+
+    <TextView
+        android:text="@string/txtRelativeTime"
+        android:id="@+id/tvRelativeTime"
+        style="@style/styleRelativeTime" />
+
+    <com.ankitgarg.instagram.ui.popular.DynamicImageView
+        android:id="@+id/ivPrimaryImage"
+        style="@style/stylePrimaryImage" />
+
+    <ImageView
+        android:id="@+id/ivLikeIcon"
+        android:src="@mipmap/ic_like"
+        style="@style/styleLikeIcon" />
+
+    <TextView
+        android:text="@string/txtLike"
+        android:id="@+id/tvLikeCount"
+        style="@style/styleTvLike" />
+
+    <TextView
+        android:id="@+id/tvCaption"
+        style="@style/styleCaption"
+        />
+
+    <TextView
+        android:id="@+id/tvNumnerOfComments"
+        style="@style/styleNumberOfComments" />
+
+    <TextView
+        android:id="@+id/tvComment1"
+        style="@style/styleComment1" />
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- This would set the toolbar's background color -->
+        <item name="android:background">@color/colorPrimary</item>
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <!-- This configures the styles for the title within the Toolbar  -->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="styleProfilePicture">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="styleUsername">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:textColor">@color/primaryBlue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignTop">@+id/ivProfilePicture</item>
+        <item name="android:layout_alignBottom">@+id/ivProfilePicture</item>
+        <item name="android:layout_toRightOf">@+id/ivProfilePicture</item>
+    </style>
+
+    <style name="styleImageView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">23dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_alignTop">@+id/tvRelativeTime</item>
+        <item name="android:layout_toLeftOf">@+id/tvRelativeTime</item>
+    </style>
+
+    <style name="styleRelativeTime">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_alignTop">@+id/ivProfilePicture</item>
+        <item name="android:layout_alignBottom">@+id/ivProfilePicture</item>
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="stylePrimaryImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_below">@+id/ivProfilePicture</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="styleLikeIcon">
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginTop">13dp</item>
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_below">@+id/ivPrimaryImage</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="styleTvLike">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primaryBlue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignTop">@+id/ivLikeIcon</item>
+        <item name="android:layout_toRightOf">@id/ivLikeIcon</item>
+    </style>
+
+    <style name="styleCaption">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@id/ivLikeIcon</item>
+        <item name="android:layout_below">@id/ivLikeIcon</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="styleNumberOfComments">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@id/ivLikeIcon</item>
+        <item name="android:layout_below">@id/tvCaption</item>
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+    <style name="styleComment1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignLeft">@id/ivLikeIcon</item>
+        <item name="android:layout_below">@id/tvNumnerOfComments</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:lines">1</item>
+    </style>
+
+</resources>

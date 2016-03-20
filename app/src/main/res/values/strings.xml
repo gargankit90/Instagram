@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="textUsername">Username</string>
+    <string name="txtRelativeTime">0h ago</string>
+    <string name="txtLike">Likes</string>
+</resources>
