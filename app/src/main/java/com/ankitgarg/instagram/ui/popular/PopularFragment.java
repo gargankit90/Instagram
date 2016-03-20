@@ -61,6 +61,9 @@ public class PopularFragment extends Fragment {
         if(savedInstanceState == null){
             items = new ArrayList<Media>();
             fetchPopularPhotos();
+        }else{
+            mAdapter.notifyDataSetChanged();
+            rvMedia.requestLayout();
         }
         mAdapter = new PopularAdapter(getContext(), items);
         rvMedia.setAdapter(mAdapter);
